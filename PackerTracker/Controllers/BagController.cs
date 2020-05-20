@@ -26,10 +26,15 @@ namespace PackerTracker.Controllers
       return View();
     }
 
-    [HttpPost("/")]
-    public ActionResult 
+    [HttpGet("/bags/{id}")]
+    public ActionResult Show(int id)
     {
-      return Redirect
+      Dictionary<string, object> model = new Dictionary<string, object> ();
+      Bag selectedBag = Bag.Find(id);
+      List<Item> bagContents = selectedBag.Contents;
+      model.Add("bag", selectedBag);
+      model.Add("", bagContents);
+      return View(model);
     }
 
     // [HttpPost("/jobs")]
