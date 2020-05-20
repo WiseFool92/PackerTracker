@@ -1,0 +1,14 @@
+@using PackerTracker.Models;
+
+<h3>Here are all the items in this bag:</h3>
+
+<ol>
+@foreach (Item item in @Model ["contents"])
+{
+  <li><a href='/bags/@Model["bag"].Id/contents/@item.Id'>@item.Name, @item.Grams</a></li>
+}
+</ol>
+
+<p><a href='/bag/@Model["bag"].id/bags/new'>Add a bag</a></p>
+<p><a href='/bag'>Return to bag</a></p>
+<p><a href='/'>Home</a></p>

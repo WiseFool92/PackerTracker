@@ -33,7 +33,7 @@ namespace PackerTracker.Controllers
       Bag selectedBag = Bag.Find(id);
       List<Item> bagContents = selectedBag.Contents;
       model.Add("bag", selectedBag);
-      model.Add("", bagContents);
+      model.Add("contents", bagContents);
       return View(model);
     }
 

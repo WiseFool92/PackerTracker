@@ -2984,6 +2984,11 @@
       "FilePath": "c:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\Views\\Items\\Index.cshtml",
       "TargetPath": "Views\\Items\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\Views\\Bags\\Show.cshtml",
+      "TargetPath": "Views\\Bags\\Show.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
