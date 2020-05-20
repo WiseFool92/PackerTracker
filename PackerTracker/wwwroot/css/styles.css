@@ -21,7 +21,7 @@
 }
 body {
   background-color: green;
-  background: linear-gradient(rgb(0, 0, 0), rgb(255, 208, 1), rgba(0, 0, 0, 0.753));
+  background: linear-gradient(rgb(255, 83, 83), rgb(105, 39, 48), rgba(231, 15, 15, 0.986));
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;

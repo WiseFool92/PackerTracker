@@ -9,7 +9,8 @@ namespace PackerTracker.Controllers
     [HttpGet("/item")]
     public ActionResult Index()
     {
-      return View(Item._instances);
+      List<Item> allItems = Item.GetAll();
+      return View(allItems);
     }
 
     [HttpGet("/CreateForm")]

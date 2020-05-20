@@ -13,10 +13,23 @@ namespace PackerTracker.Controllers
       return View(allBags);
     }
 
-    [HttpGet("/CreateForm")]
-    public ActionResult CreateForm()
+    [HttpPost("/bags")]
+    public ActionResult Create(string bagName, int maxWeight)
+    {
+      Bag newBag = new Bag(bagName, maxWeight);
+      return RedirectToAction("Index");
+    }
+
+    [HttpGet("bags/new")]
+    public ActionResult New()
     {
       return View();
+    }
+
+    [HttpPost("/")]
+    public ActionResult 
+    {
+      return Redirect
     }
 
     // [HttpPost("/jobs")]

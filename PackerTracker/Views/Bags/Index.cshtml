@@ -1,28 +1,24 @@
-@* <!DOCTYPE html>
+@using PackerTracker.Models;
+<!DOCTYPE html>
 <html>
   <head>
-  @using JobBoard.Models;
-  <title>C# Job Board</title>
+  <title>C# PackerTracker - Bags</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
   </head>
   <body>
     <div class="gr">
-      <h1 id="type">Job Postings</h1>
+      <h1 id="type">Your Bags</h1>
       @if (Model.Count == 0)
       {
-        <p>There are currently no job postings available.</p>
+        <p>You have not yet added a bag.</p>
       }
-      @foreach (var newJob in Model)
+      @foreach (Bag bag in Model)
       {
-        <ul id="center">
-          <li>Job Title: @newJob.Title</li>
-          <li>Job Description: @newJob.Description</li>
-          <li>Contact Info: @newJob.Phone</li>
-          <li>Job Pay: @newJob.Pay</li>
-        </ul>
+        <h4><a href='bags/@bag.Id'>@bag.BagName</a></h4>
       }
     </div>
-    <a href="/CreateForm"><button id="btnLocation">Add a job post!</button></a>
+    <a href="/New"><button id="btnLocation">Add a Bag!</button></a>
+    <a href="/">Back Home</a></p>
   </body>
-</html> *@
+</html>
