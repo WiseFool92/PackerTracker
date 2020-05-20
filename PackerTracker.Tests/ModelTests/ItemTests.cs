@@ -5,12 +5,12 @@ using PackerTracker.Models;
 
 namespace PackerTracker.Tests
 {
-  [TestClass] public class ItemTests : IDisposable
+  [TestClass] public class ItemTests //: IDisposable
   {
-    public void Dispose()
-    {
-      Item.ClearAll();
-    }
+    // public void Dispose()
+    // {
+    //   Item.ClearAll();
+    // }
 
     [TestMethod]
     public void ItemConstructor_CreatesInstanceOfItem_Item()

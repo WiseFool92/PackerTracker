@@ -1,8 +1,8 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
-using JobBoard.Models;
+using PackerTracker.Models;
 
-namespace JobBoard
+namespace PackerTracker
 {
   public class Program
   {
