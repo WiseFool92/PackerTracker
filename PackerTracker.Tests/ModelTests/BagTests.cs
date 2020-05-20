@@ -39,9 +39,11 @@ namespace PackerTracker.Tests
       Bag newBag = new Bag("backpack", 4400);
       Item newItem = new Item("water filter", 100);
       Item newItem2 = new Item("jacket", 375);
-      
+      List<Item> newContents = newBag.AddToBag(newItem);
+      newContents = newBag.AddToBag(newItem2);
+      int testWeight = 475;
+      int newBagWeight = newBag.BagWeight();
+      Assert.AreEqual(newBagWeight, testWeight);
     }
-
-
   }
 }

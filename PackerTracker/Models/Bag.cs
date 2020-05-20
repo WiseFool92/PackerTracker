@@ -42,7 +42,12 @@ namespace PackerTracker.Models
 
     public int BagWeight()
     {
-      return 0;
+      int totalWeight = 0;
+      foreach (Item item in Contents)
+      {
+        totalWeight += item.Grams;
+      }
+      return totalWeight;
     }
 
   }
