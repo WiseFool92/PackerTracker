@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\packertracker\\PackerTracker.csproj": {}
+    "C:\\Users\\watki\\Desktop\\packertracker.solution\\packertracker\\PackerTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\packertracker\\PackerTracker.csproj": {
+    "C:\\Users\\watki\\Desktop\\packertracker.solution\\packertracker\\PackerTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\packertracker\\PackerTracker.csproj",
+        "projectUniqueName": "C:\\Users\\watki\\Desktop\\packertracker.solution\\packertracker\\PackerTracker.csproj",
         "projectName": "PackerTracker",
-        "projectPath": "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\packertracker\\PackerTracker.csproj",
+        "projectPath": "C:\\Users\\watki\\Desktop\\packertracker.solution\\packertracker\\PackerTracker.csproj",
         "packagesPath": "C:\\Users\\watki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\packertracker\\obj\\",
+        "outputPath": "C:\\Users\\watki\\Desktop\\packertracker.solution\\packertracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

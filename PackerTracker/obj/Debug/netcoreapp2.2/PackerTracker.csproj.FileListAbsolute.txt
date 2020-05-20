@@ -15,8 +15,6 @@ C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\PackerTracker.TagHelpers.output.cache
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\PackerTracker.RazorCoreGenerate.cache
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\Razor\Views\PackerTracker\CreateForm.cshtml.g.cs
-C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\Razor\Views\PackerTracker\Index.cshtml.g.cs
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\PackerTracker.RazorTargetAssemblyInfo.cache
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\PackerTracker.RazorTargetAssemblyInfo.cs
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\PackerTracker.Views.pdb
@@ -24,3 +22,8 @@ C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\PackerTracker.pdb
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\PackerTracker.genruntimeconfig.cache
 C:\Users\watki\Desktop\PackerTracker.Solution\PackerTracker\obj\Debug\netcoreapp2.2\PackerTracker.csproj.CopyComplete
+C:\Users\watki\Desktop\packertracker.solution\PackerTracker\obj\Debug\netcoreapp2.2\Razor\Views\Bags\Index.cshtml.g.cs
+C:\Users\watki\Desktop\packertracker.solution\PackerTracker\obj\Debug\netcoreapp2.2\Razor\Views\Bags\New.cshtml.g.cs
+C:\Users\watki\Desktop\packertracker.solution\PackerTracker\obj\Debug\netcoreapp2.2\Razor\Views\Bags\Show.cshtml.g.cs
+C:\Users\watki\Desktop\packertracker.solution\PackerTracker\obj\Debug\netcoreapp2.2\Razor\Views\Items\Index.cshtml.g.cs
+C:\Users\watki\Desktop\packertracker.solution\PackerTracker\obj\Debug\netcoreapp2.2\Razor\Views\Items\New.cshtml.g.cs

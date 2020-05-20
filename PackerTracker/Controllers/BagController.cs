@@ -20,7 +20,7 @@ namespace PackerTracker.Controllers
       return RedirectToAction("Index");
     }
 
-    [HttpGet("bags/new")]
+    [HttpGet("/bags/new")]
     public ActionResult New()
     {
       return View();
@@ -37,11 +37,19 @@ namespace PackerTracker.Controllers
       return View(model);
     }
 
-    // [HttpPost("/jobs")]
-    // public ActionResult Create(string title, string description, string pay, string phone)
+    [HttpGet("/bags/{id}/additem")]
+    public ActionResult NewItem()
+    {
+      return View();
+    }
+
+    // [HttpPost("/bags/{id}/additems")]
     // {
-    //   Jobs newContract = new Jobs(title, description, pay, phone);
-    //   return RedirectToAction("Index");
+    //   Bag selectedBag = Bag.Find(id);
+    //   Item newItem = new Item(//formfields)
+    //   selectedBag.AddToBag(newItem);
     // }
+
+    
   }
 }

@@ -6,7 +6,7 @@ namespace PackerTracker.Controllers
 {
   public class HomeController : Controller
   {
-    [HttpGet("/Home")]
+    [HttpGet("/")]
     public ActionResult Index()
     {
       return View();

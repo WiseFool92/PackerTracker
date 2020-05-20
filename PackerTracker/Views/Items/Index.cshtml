@@ -15,10 +15,10 @@
       }
       @foreach (Item item in Model)
       {
-       <h4><a href='items/@item.Id'>@item.ItemName</a></h4>
+        <h4><a href='items/@item.Id'>@item.Name</a></h4>
       }
     </div>
-    <a href="/CreateForm"><button id="btnLocation">Add an item!</button></a>
+    <a href="/items/new"><button id="btnLocation">Add an item!</button></a>
     <a href="/">Back Home</a></p>
   </body>
 </html>

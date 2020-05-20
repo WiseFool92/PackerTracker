@@ -6,24 +6,42 @@ namespace PackerTracker.Controllers
 {
   public class ItemsController : Controller
   {
-    [HttpGet("/item")]
+    [HttpGet("/items")]
     public ActionResult Index()
     {
       List<Item> allItems = Item.GetAll();
       return View(allItems);
     }
 
-    [HttpGet("/CreateForm")]
-    public ActionResult CreateForm()
+    [HttpGet("/items/new")]
+    public ActionResult New()
     {
       return View();
     }
 
-    // [HttpPost("/item")]
-    // public ActionResult Create(string title, string description, string pay, string phone)
+    [HttpPost("/items")]
+    public ActionResult Create(string itemName, int grams)
+    {
+      Item newItem = new Item(itemName, grams);
+      return RedirectToAction("Index");
+    }
+
+    // [HttpGet("/items/{id}")]
+    // public ActionResult Show(int id)
     // {
-    //   Jobs newContract = new Jobs(title, description, pay, phone);
-    //   return RedirectToAction("Index");
+    //   Dictionary<string, object> model = new Dictionary<string, object> ();
+    //   Item selectedItem = Item.Find(id)
+
+    //   model.Add("bag")
+    // }
+    // [HttpGet("/bags/{id}")]
+    // public ActionResult Show(int id)
+    // {
+    //   Bag selectedBag = Bag.Find(id);
+    //   List<Item> bagContents = selectedBag.Contents;
+    //   model.Add("bag", selectedBag);
+    //   model.Add("contents", bagContents);
+    //   return View(model);
     // }
   }
 }
