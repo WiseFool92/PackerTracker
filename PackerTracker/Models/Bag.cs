@@ -50,6 +50,12 @@ namespace PackerTracker.Models
       return totalWeight;
     }
 
+    public int WeightMargin(int totalWeight)
+    {
+      int margin = WeightLimit - totalWeight;
+      return margin;
+    }
+
   }
 }
 

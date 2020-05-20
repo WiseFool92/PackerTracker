@@ -2966,13 +2966,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\Views\\PackerTracker\\Index.cshtml",
-      "TargetPath": "Views\\PackerTracker\\Index.cshtml",
+      "FilePath": "c:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\Views\\Items\\CreateForm.cshtml",
+      "TargetPath": "Views\\Items\\CreateForm.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\Views\\PackerTracker\\CreateForm.cshtml",
-      "TargetPath": "Views\\PackerTracker\\CreateForm.cshtml",
+      "FilePath": "c:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\Views\\Bags\\Index.cshtml",
+      "TargetPath": "Views\\Bags\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\Views\\Bags\\CreateForm.cshtml",
+      "TargetPath": "Views\\Bags\\CreateForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\Views\\Items\\Index.cshtml",
+      "TargetPath": "Views\\Items\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xohT6bPwpJ1507wrdop9lvFNC5hpX7LraAceOf3qGClzMbBJ1FQwANLCnmrVQgsqRqGtIUWKGXKswGP3CACnoQ==",
+  "dgSpecHash": "4WLfGmCpDtx9nTmC0tAYadiybnMxnLRp1fejoxKlBZpxNeQNOpJ4ZcNBSj3UMleqR4URhhJBifFOSmSZ+5Aorg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker\\PackerTracker.csproj",
+  "projectFilePath": "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\packertracker\\PackerTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
