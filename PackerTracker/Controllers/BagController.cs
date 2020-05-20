@@ -44,11 +44,13 @@ namespace PackerTracker.Controllers
     }
 
     // [HttpPost("/bags/{id}/additems")]
+    // public ActionResult Create(int id, string itemName, int grams)
     // {
-    //   Bag selectedBag = Bag.Find(id);
-    //   Item newItem = new Item(//formfields)
-    //   selectedBag.AddToBag(newItem);
-    // }
+    // Bag selectedBag = Bag.Find(id);
+    // Item newItem = new Item(itemName, grams);
+    // selectedBag.AddToBag(newItem);
+    // }  THIS MIGHT WORK -- Definitely MIGHT WORK!
+    
 
     
   }
