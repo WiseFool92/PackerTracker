@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G98IR/qPpjmglZkX+8PQgZf7TCEBa8gHv1hW70QF1ra3iTKd1ZtUjUxyS1R6IiaPkySEOjEMP186C/4O7mjYlA==",
+  "dgSpecHash": "S5Bw2HKO2w1RxBOfRfyjzWsP4ctQf0svrl2qoTeM0pOT120uV0zHaGEHjaJ73Giw5jfSoBcQvj1Khv7v15o7Gw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\PackerTracker.Tests\\PackerTracker.Tests.csproj",
+  "projectFilePath": "C:\\Users\\watki\\Desktop\\PackerTracker.Solution\\packertracker.tests\\PackerTracker.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\watki\\.nuget\\packages\\microsoft.net.test.sdk\\15.0.0\\microsoft.net.test.sdk.15.0.0.nupkg.sha512",

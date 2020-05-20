@@ -18,5 +18,19 @@ namespace PackerTracker.Tests
       Item newItem = new Item("test", 214);
       Assert.AreEqual(typeof(Item), newItem.GetType());
     }
+
+    [TestMethod]
+    public void GetName_ReturnsName_String()
+    {
+      //Arrange
+      string name = "water filter";
+      int grams = 100;
+      Item newItem = new Item(name, grams);
+      //Act
+      string result = newItem.Name;
+      //Assert
+      Assert.AreEqual(name, result);
+    }
+
   }  
 }
