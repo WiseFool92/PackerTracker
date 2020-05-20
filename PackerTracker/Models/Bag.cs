@@ -40,6 +40,11 @@ namespace PackerTracker.Models
       return Contents;
     }
 
+    public int BagWeight()
+    {
+      return 0;
+    }
+
   }
 }
 

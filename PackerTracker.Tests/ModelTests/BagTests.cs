@@ -33,6 +33,15 @@ namespace PackerTracker.Tests
       CollectionAssert.AreEqual(newContents, testContents);
     }
 
+    [TestMethod]
+    public void BagWeight_GetsTotalWeightofContents_Int()
+    {
+      Bag newBag = new Bag("backpack", 4400);
+      Item newItem = new Item("water filter", 100);
+      Item newItem2 = new Item("jacket", 375);
+      
+    }
+
 
   }
 }
